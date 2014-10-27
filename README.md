@@ -67,6 +67,11 @@ truthy('') === false
 truthy('false') === true
 truthy('true') === true
 truthy('abc') === true
+```
+
+### booleans
+
+```js
 truthy(true) === true
 truthy(false) === false
 truthy(Boolean(false)) === false
