@@ -1,29 +1,30 @@
-#### truthy
+## truthy
+
 The Javascript library for finding out the truthyness of anything
 ----
 
 
-`#### objects`
+#### objects
 ---
 
 `truthy({}) === true`
 `truthy({ foo: 'bar' }) === true`
 `truthy(function() {}) === true`
 
-`#### arrays`
+#### arrays
 ---
 
 `truthy([]) === true`
 `truthy(["foo", "bar"]) === true`
 `truthy(undefined) === false`
 
-`#### null`
+#### null
 ---
 
-`truthy(null) === false`
+truthy(null) === false
 
 
-`#### numbers`
+#### numbers
 ---
 
 `truthy(NaN) === false)`
@@ -33,7 +34,7 @@ The Javascript library for finding out the truthyness of anything
 `truthy(-1) === true`
 
 
-`#### strings`
+#### strings
 ---
 
 `truthy('') === false`
