@@ -89,7 +89,7 @@ truthy(new Boolean("abc")) === true
 
 
 ### options explained - coerceStringBooleans: true
-You can set the `coerceStringBooleans` option to coerce the string value "true" to boolean true and the string "false" to boolean false
+You can set the `coerceStringBooleans` option to coerce the string value "true" to boolean true and the string "false" to boolean false. String "true" and "false" matches are case-insensitive.
 
 
 ```js
@@ -97,6 +97,10 @@ You can set the `coerceStringBooleans` option to coerce the string value "true" 
 // with coerceStringBooleans set to true
 truthy('') === false
 truthy('false') === false
+truthy('False') === false
+truthy('FALSE') === false
 truthy('true') === true
+truthy('True') === true
+truthy('TRUE') === true
 truthy('abc') === true
 ```
