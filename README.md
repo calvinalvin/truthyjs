@@ -88,7 +88,7 @@ truthy(new Boolean("abc")) === true
 ```
 
 
-### options explained - coerceStringBooleans:true
+### options explained - coerceStringBooleans: true
 You can set the `coerceStringBooleans` option to coerce the string value "true" to boolean true and the string "false" to boolean false
 
 
