@@ -5,7 +5,7 @@ The Javascript library for finding out the truthyness of anything
 ----
 
 
-## objects
+### objects
 
 ```js
 truthy({}) === true
@@ -13,7 +13,7 @@ truthy({ foo: 'bar' }) === true
 truthy(function() {}) === true
 ```
 
-## arrays
+### arrays
 
 ```js
 truthy([]) === true
@@ -21,14 +21,14 @@ truthy(["foo", "bar"]) === true
 truthy(undefined) === false
 ```
 
-## null
+### null
 
 ```js
 truthy(null) === false
 ```
 
 
-## numbers
+### numbers
 
 ```js
 truthy(NaN) === false)
@@ -39,7 +39,7 @@ truthy(-1) === true
 ```
 
 
-## strings
+### strings
 
 ```js
 truthy('') === false
@@ -64,4 +64,17 @@ truthy(new Boolean("0")) === true
 truthy(new Boolean("1")) === true
 truthy(Boolean("abc")) === true
 truthy(new Boolean("abc")) === true
+```
+
+
+### options - coerceStringBooleans:true
+You can set the `coerceStringBooleans` option to coerce the string value "true" to boolean true and the string "false" to boolean false
+
+```js
+
+// with coerceStringBooleans set to true
+truthy('') === false
+truthy('false') === false
+truthy('true') === true
+truthy('abc') === true
 ```
