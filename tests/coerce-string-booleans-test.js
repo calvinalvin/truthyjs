@@ -13,8 +13,28 @@ describe('truthy test strings', function() {
     done();
   });
 
+  it('the string \"False\" equates to false', function (done) {
+    assert(truthy('False') === false);
+    done();
+  });
+
+  it('the string \"FALSE\" equates to false', function (done) {
+    assert(truthy('FALSE') === false);
+    done();
+  });
+  
   it('the string \"true\" equates to true', function (done) {
     assert(truthy('true') === true);
+    done();
+  });
+
+  it('the string \"True\" equates to true', function (done) {
+    assert(truthy('True') === true);
+    done();
+  });
+
+  it('the string \"true\" equates to true', function (done) {
+    assert(truthy('TRUE') === true);
     done();
   });
 
