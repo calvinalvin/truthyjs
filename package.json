@@ -1,6 +1,6 @@
 {
   "name": "truthy",
-  "description": "Javascript library for testing truthiness of anything",
+  "description": "Javascript library for testing truthiness of anything. Truthyness is not the same as equality!",
   "version": "0.1.0",
   "author": {
     "name": "Calvin Alvin",
