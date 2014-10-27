@@ -7,7 +7,7 @@ The Javascript library for finding out the truthyness of anything
 ### usage
 
 ```js
-var truthy = require('../lib/truthy')();
+var truthy = require('truthy')();
 
 var someParam = req.params('foo');
 if (truthy(someParam)) {
@@ -83,7 +83,7 @@ truthy(new Boolean("abc")) === true
 You can set the `coerceStringBooleans` option to coerce the string value "true" to boolean true and the string "false" to boolean false
 
 ```js
-var truthy = require('../lib/truthy')({ coerceStringBooleans: true });
+var truthy = require('truthy')({ coerceStringBooleans: true });
 
 var someParam = req.params('foo');
 if (truthy(someParam)) {
