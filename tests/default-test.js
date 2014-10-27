@@ -48,6 +48,11 @@ describe('truthy test null', function() {
 });
 
 describe('truthy test numbers', function() {
+  it('NaN equates to false', function (done) {
+    assert(truthy(NaN) === false);
+    done();
+  });
+
   it('0 equates to false', function (done) {  
     assert(truthy(0) === false);
     done();
