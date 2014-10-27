@@ -14,6 +14,15 @@ if (truthy(someParam)) {
   // do stuff
 }
 
+//----
+// or with options
+var truthy = require('truthy')({ coerceStringBooleans: true });
+
+var someParam = req.params('foo');
+if (truthy(someParam)) {
+  // do stuff
+}
+
 ```
 
 
@@ -79,18 +88,8 @@ truthy(new Boolean("abc")) === true
 ```
 
 
-### options - coerceStringBooleans:true
+### options explained - coerceStringBooleans:true
 You can set the `coerceStringBooleans` option to coerce the string value "true" to boolean true and the string "false" to boolean false
-
-```js
-var truthy = require('truthy')({ coerceStringBooleans: true });
-
-var someParam = req.params('foo');
-if (truthy(someParam)) {
-  // do stuff
-}
-
-```
 
 
 ```js
