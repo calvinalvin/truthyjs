@@ -1,0 +1,36 @@
+{
+  "name": "truthy",
+  "description": "Javascript library for testing truthiness of anything",
+  "version": "0.1.0",
+  "author": {
+    "name": "Calvin Alvin",
+    "email": "calvin@etwist.com",
+    "url": "http://www.github.com/calvinalvin"
+  },
+  "main": "./index",
+  "directories": {
+    "lib": "./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/calvinalvin/truthy"
+  },
+  "engines": {
+    "node": ">=0.6.x"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "better-assert": "1.0.x" 
+  },
+  "keywords": [
+    "truthy",
+    "truthey",
+    "falsey",
+    "falsy"
+  ],
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/calvinalvin/truthy/issues"
+  }
+}
