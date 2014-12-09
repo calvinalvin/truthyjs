@@ -1,6 +1,6 @@
 {
   "name": "truthyjs",
-  "description": "Javascript library for testing truthiness of anything. Coerce string booleans into true booleans. Truthyness is not the same as equality!",
+  "description": "Javascript library for testing truthiness of anything. Coerce string booleans into boolean primitives. Truthyness is not the same as equality!",
   "version": "0.1.0",
   "author": {
     "name": "Calvin Alvin",
@@ -27,7 +27,9 @@
     "truthy",
     "truthey",
     "falsey",
-    "falsy"
+    "falsy",
+    "boolean",
+    "boolean conversion"
   ],
   "readmeFilename": "README.md",
   "bugs": {
