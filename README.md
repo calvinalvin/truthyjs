@@ -1,4 +1,4 @@
-# truthy
+# truthyjs
 
 Javascript library for testing truthiness of anything. Coerce string booleans into boolean primitives. Truthyness is not the same as equality!
 
@@ -7,7 +7,7 @@ Javascript library for testing truthiness of anything. Coerce string booleans in
 ### usage
 
 ```js
-var truthy = require('truthy')();
+var truthy = require('truthyjs')();
 
 var someParam = req.params('foo');
 if (truthy(someParam)) {
@@ -16,7 +16,7 @@ if (truthy(someParam)) {
 
 //----
 // or with options
-var truthy = require('truthy')({ coerceStringBooleans: true });
+var truthy = require('truthyjs')({ coerceStringBooleans: true });
 
 var someParam = req.params('foo');
 if (truthy(someParam)) {
