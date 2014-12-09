@@ -1,6 +1,6 @@
 # truthy
 
-The Javascript library for finding out the truthyness of anything. Truthyness is not the same as equality!
+Javascript library for testing truthiness of anything. Coerce string booleans into true booleans. Truthyness is not the same as equality!
 
 ----
 
