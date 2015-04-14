@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/calvinalvin/truthy"
+    "url": "http://github.com/calvinalvin/truthyjs"
   },
   "engines": {
     "node": ">=0.6.x"
@@ -33,6 +33,6 @@
   ],
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/calvinalvin/truthy/issues"
+    "url": "https://github.com/calvinalvin/truthyjs/issues"
   }
 }
