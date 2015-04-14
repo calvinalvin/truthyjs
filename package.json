@@ -1,7 +1,7 @@
 {
   "name": "truthyjs",
   "description": "Javascript library for testing truthiness of anything. Coerce string booleans into boolean primitives. Truthyness is not the same as equality!",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Calvin Alvin",
     "email": "calvin@etwist.com",
